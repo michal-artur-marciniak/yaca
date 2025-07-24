@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (bz22n4siouixivl1dukn) or template name (yaca-sandbox) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("yaca-sandbox") # Sync sandbox
+# sandbox = await AsyncSandbox.create("yaca-sandbox") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('yaca-sandbox')
+
+team_id = "0b649895-1bcb-45c8-a189-e03412ef3ccc"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "yaca-sandbox"
+template_id = "bz22n4siouixivl1dukn"
